@@ -7,6 +7,7 @@ public class Solution {
 
     public int findNumbers(int[] nums) {
 
+        //itereate over every number in loop
         for (int i : nums) {
             if (isEven(i)) {
                 System.out.println(isEven(i));
@@ -17,11 +18,13 @@ public class Solution {
         return count;
     }
 
+    //Checking the count is even or not
     private boolean isEven(int i) {
         int num = digit(i);
         return num % 2 == 0;
     }
 
+    // counting the number present in value
     public int digit(int num) {
         int count = 0;
         if (num == 0) {
