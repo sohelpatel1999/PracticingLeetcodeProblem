@@ -21,3 +21,5 @@ public class Solution {
         System.out.println(maximumWealth(accounts));
     }
 }
+
+//java solution
