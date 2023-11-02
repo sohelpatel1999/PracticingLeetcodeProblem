@@ -13,7 +13,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] array = {1,2,1,3,5,6,4}; //5
+        int[] array = {1,2,1,3,5,6,4}; 
         Solution solution = new Solution();
         int answer = solution.findPeakElement(array);
 
