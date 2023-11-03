@@ -9,7 +9,7 @@ var findPeakElement = function(nums) {
     }
     return index;
 };
-//END DONE
+//END
 const array = [1,2,3,1]
 const answer = findPeakElement(array);
 console.log(answer);
