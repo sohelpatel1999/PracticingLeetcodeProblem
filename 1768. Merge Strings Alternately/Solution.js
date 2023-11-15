@@ -13,5 +13,5 @@ var mergeAlternately = function (word1, word2) {
 };
 word1 = "abhbnc";
 word2 = "pgqr";
-const answer = mergeAlternately(word1,word2);
+const answer = mergeAlternately(word1, word2);
 console.log(answer);
