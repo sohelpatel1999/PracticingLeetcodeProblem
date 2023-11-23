@@ -17,7 +17,7 @@ var canPlaceFlowers = function (flowerbed, n) {
   return false;
 };
 
-arr = [1, 0, 0, 0, 1];
+arr = [1, 0, 1, 0, 1];
 const answer = canPlaceFlowers(arr, 1);
 console.log(answer);
 console.log(arr);
